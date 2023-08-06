@@ -1,0 +1,70 @@
+﻿body {
+  background-color: #ffffcc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid #ff0000;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.header {
+  text-align: center;
+  font-size: 30px;
+  color: #ff0000;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+
+p {
+  text-align: center;
+}
+
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.image {
+  margin: 10px;
+  text-align: center;
+}
+
+
+.image img {
+  max-width: 200px;
+  max-height: 200px;
+  border: 2px solid #ff0000;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.image p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #555555;
+}
+
+
+/* Angelfire-style under construction GIF */
+.under-construction {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.under-construction img {
+  max-width: 200px;
+}
